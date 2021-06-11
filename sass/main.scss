@@ -5,6 +5,11 @@
 @import "./pages/index";
 @import "./layout/index";
 
+// typo
+// Polices
+// Logo et titres: Shrikhand
+// Texte: Roboto
+
 *,
 *::after,
 *::before {
@@ -19,11 +24,19 @@ a {
     color: inherit;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Shrikhand", cursive;
+}
+
 body {
-    font-family: "Gill Sans", sans-serif;
+    font-family: "Roboto", sans-serif;
     font-size: 62.5%;
     max-width: 1500px;
     margin: auto;
     background: $color-s;
 }
-
