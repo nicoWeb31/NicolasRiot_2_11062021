@@ -1,0 +1,63 @@
+*,
+*::after,
+*::before {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: inherit;
+    list-style: none;
+    text-decoration: none;
+}
+
+a {
+    color: inherit;
+}
+
+body {
+    font-family: "Gill Sans", sans-serif;
+    font-size: 62.5%;
+    max-width: 1500px;
+    margin: auto;
+}
+
+/* color
+:root {
+    --color-b: #0065FC;
+    --color-bc: #DEEBFF;
+    --color-g: #F2F2F2;
+    --color-gf: #5f5f63;
+} */
+
+.border {
+    border: solid 2px black;
+}
+
+.title {
+    font-size: 1.6rem;
+    margin: 2rem;
+    margin-top: 5rem;
+}
+
+.shadow {
+    box-shadow: 1px -2px 23px 0px rgba(0, 0, 0, 0.61);
+}
+
+.icon-svg{
+    width: 10px;
+}
+
+
+/* break point BT5 */
+@media screen and (max-width: 576px) {
+
+    main{
+        margin: 0rem;
+        padding: 0;
+        /* background-color: #0065FC; */
+    }
+
+}
+@media screen and (min-width: 576px) and (max-width: 768px) {}
+@media screen and (min-width: 768px) and (max-width: 992px) {}
+@media screen and (min-width: 992px) and (max-width: 1200px) {}
+
+
