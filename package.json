@@ -1,0 +1,22 @@
+{
+  "name": "nicolasriot-3-11062021",
+  "version": "1.0.0",
+  "description": "oc p3",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss public/css/index.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nicoWeb31/NicolasRiot_3_11062021.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nicoWeb31/NicolasRiot_3_11062021/issues"
+  },
+  "homepage": "https://github.com/nicoWeb31/NicolasRiot_3_11062021#readme",
+  "devDependencies": {
+    "node-sass": "^6.0.0"
+  }
+}
