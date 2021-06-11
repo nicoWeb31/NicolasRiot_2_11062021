@@ -1,6 +1,10 @@
-$color-p : #9356DC;
-$color-s : #FF79DA ;
-$color-t : #99E2D0;
+@import "./variable";
+@import "./mixin";
+@import "./pages/";
+@import "./keyFrame";
+@import "./pages/index";
+@import "./layout/index";
+
 *,
 *::after,
 *::before {
@@ -23,12 +27,3 @@ body {
     background: $color-s;
 }
 
-
-
-
-
-/* break point BT5 */
-@media screen and (max-width: 576px) {}
-@media screen and (min-width: 576px) and (max-width: 768px) {}
-@media screen and (min-width: 768px) and (max-width: 992px) {}
-@media screen and (min-width: 992px) and (max-width: 1200px) {}
