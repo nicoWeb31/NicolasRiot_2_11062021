@@ -12,3 +12,10 @@
         @media (min-width: 112.5em) { @content };//1800px
     }
 }
+
+@mixin flexCenter($direction) {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    flex-direction: $direction !important;
+}

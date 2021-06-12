@@ -5,12 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="preconnect" href="https://fonts.gstatic.com" />
-        <link
-            href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;1,100;1,300&display=swap"
-            rel="stylesheet"
-        />
-        <link rel="preconnect" href="https://fonts.gstatic.com" />
-
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
         <link rel="stylesheet" href="/public/css/index.css" />
 
         <title>Document</title>
@@ -18,21 +13,24 @@
     <body>
         <!-- header -->
 
-        <header>
-            <h1>ohmyfood</h1>
-            <h2>
-                <i></i>
-                Paris,Belleville
+        <header class="header">
+            <h1 class="header__title-main title-shi">ohmyfood</h1>
+            <h2 class="header__title-secondary">
+                <i class="fas fa-map-marker-alt"></i>
+                <span>
+                    Paris,Belleville
+                </span>
+
             </h2>
         </header>
 
-        <section>
-            <h3>Réservez le menu qui convient</h3>
-            <p>
+        <section class="sectionOne">
+            <h3 class="sectionOne__title">Réservez le menu qui vous convient</h3>
+            <p class=" sectionOne__description">
                 Découvrez des restaurants d'exception, sélectionées par nos
                 soins.
             </p>
-            <button>explorer nos restaurants</button>
+            <button class="sectionOne__btn">explorer nos restaurants</button>
         </section>
 
         <section>
@@ -81,8 +79,8 @@
                 </div>
                 <div>
                     <div>
-                        <h3>La pallette du goût</h3>
-                        <p>Ménilmontant</p>
+                        <h3>La note enchanté</h3>
+                        <p>Charonne</p>
                     </div>
                     <div>
                         <i></i>
@@ -98,8 +96,8 @@
                 </div>
                 <div>
                     <div>
-                        <h3>La pallette du goût</h3>
-                        <p>Ménilmontant</p>
+                        <h3>A la française</h3>
+                        <p>Cité Rouge</p>
                     </div>
                     <div>
                         <i></i>
@@ -114,8 +112,8 @@
                 </div>
                 <div>
                     <div>
-                        <h3>La pallette du goût</h3>
-                        <p>Ménilmontant</p>
+                        <h3>Le délice des sens</h3>
+                        <p>Folie-Méricourt</p>
                     </div>
                     <div>
                         <i></i>
@@ -125,6 +123,30 @@
         </main>
 
         <!-- footer -->
-        <footer class="footer"></footer>
+        <footer class="footer">
+            <h3>ohmyfood</h3>
+            <div>
+                <ul>
+                    <li>
+                        <a href="">
+                            <i></i>
+                            <span>Proposer un restaurant</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <i></i>
+                            <span> Devenir partenaire </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href=""> Mentions légales </a>
+                    </li>
+                    <li>
+                        <a href=""> Contact </a>
+                    </li>
+                </ul>
+            </div>
+        </footer>
     </body>
 </html>

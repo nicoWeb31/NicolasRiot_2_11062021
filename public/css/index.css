@@ -1,3 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Shrikhand&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,300;1,400&display=swap");
+.sectionOne {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  align-items: center;
+  height: 20rem;
+  background-color: rgba(194, 201, 201, 0.1); }
+  .sectionOne__title {
+    text-align: center;
+    padding: 2rem;
+    padding-top: 4rem;
+    font-size: 2rem; }
+  .sectionOne__description {
+    font-size: 1.6rem;
+    text-align: center;
+    padding: 1rem;
+    color: #343636; }
+  .sectionOne__btn {
+    background-color: rgba(255, 121, 218, 0.4);
+    color: #fff;
+    border-radius: 4rem;
+    padding: 1rem; }
+
+.sectionOne {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  align-items: center;
+  height: 20rem;
+  background-color: rgba(194, 201, 201, 0.1); }
+  .sectionOne__title {
+    text-align: center;
+    padding: 2rem;
+    padding-top: 4rem;
+    font-size: 2rem; }
+  .sectionOne__description {
+    font-size: 1.6rem;
+    text-align: center;
+    padding: 1rem;
+    color: #343636; }
+  .sectionOne__btn {
+    background-color: rgba(255, 121, 218, 0.4);
+    color: #fff;
+    border-radius: 4rem;
+    padding: 1rem; }
+
+.header {
+  width: 100%; }
+  .header__title-main {
+    text-align: center;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    flex-direction: row !important;
+    height: 6rem;
+    font-size: 3rem;
+    vertical-align: middle; }
+  .header__title-secondary {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 5rem;
+    background-color: rgba(194, 201, 201, 0.5);
+    width: 100%;
+    color: #343636; }
+    .header__title-secondary i {
+      margin: 0.5; }
+    .header__title-secondary span {
+      margin: 1rem; }
+
 *,
 *::after,
 *::before {
@@ -10,9 +82,23 @@
 a {
   color: inherit; }
 
+html {
+  font-size: 62.5%; }
+  @media (max-width: 75em) {
+    html {
+      font-size: 56.25%; } }
+  @media (max-width: 56.25em) {
+    html {
+      font-size: 50%; } }
+  @media (min-width: 112.5em) {
+    html {
+      font-size: 75%; } }
+
+.title-shi {
+  font-family: "Shrikhand", cursive; }
+
 body {
-  font-family: "Gill Sans", sans-serif;
-  font-size: 62.5%;
+  font-family: 'Roboto', sans-serif;
   max-width: 1500px;
   margin: auto;
-  background: #FF79DA; }
+  box-sizing: border-box; }

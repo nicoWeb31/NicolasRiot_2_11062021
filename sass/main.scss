@@ -1,14 +1,12 @@
-@import "./variable";
+@import "./variables";
 @import "./mixin";
-@import "./pages/";
+@import "./pages/index";
 @import "./keyFrame";
 @import "./pages/index";
 @import "./layout/index";
+@import url("https://fonts.googleapis.com/css2?family=Shrikhand&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,300;1,400&display=swap");
 
-// typo
-// Polices
-// Logo et titres: Shrikhand
-// Texte: Roboto
 
 *,
 *::after,
@@ -24,19 +22,32 @@ a {
     color: inherit;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+//default 16px
+html {
+    //10px
+    font-size: 62.5%;
+
+    @include respond(tab-land) {
+        font-size: 56.25%;
+    }
+    @include respond(tab-port) {
+        font-size: 50%;
+    }
+    @include respond(big-desktop) {
+        font-size: 75%;
+    }
+}
+
+
+
+// typo
+.title-shi{
     font-family: "Shrikhand", cursive;
 }
 
 body {
-    font-family: "Roboto", sans-serif;
-    font-size: 62.5%;
+    font-family: 'Roboto', sans-serif;
     max-width: 1500px;
     margin: auto;
-    background: $color-s;
+    box-sizing: border-box;
 }
