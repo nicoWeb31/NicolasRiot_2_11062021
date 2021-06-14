@@ -250,6 +250,22 @@
           display: inherit;
           color: #9356DC; }
 
+.footer {
+  font-size: 2rem;
+  background-color: #343636;
+  color: #fff;
+  padding: 3rem; }
+  .footer__title {
+    font-size: 3rem;
+    margin-bottom: 4rem; }
+  .footer__info {
+    margin-top: 1rem;
+    font-weight: 600; }
+    .footer__info-item {
+      margin-top: 1.5rem; }
+      .footer__info-item span {
+        padding-left: 1rem; }
+
 .header {
   width: 100%; }
   .header__title-main {

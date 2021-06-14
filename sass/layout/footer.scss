@@ -1,0 +1,32 @@
+
+
+.footer {
+    font-size: 2rem;
+    background-color: $color-gf;
+    color: #fff;
+    padding: 3rem;
+
+    &__title{
+        font-size: 3rem;
+        margin-bottom: 4rem;
+    }
+
+    &__info{
+        margin-top: 1rem;
+        font-weight: 600;
+        
+        &-list{
+
+            
+        }
+&-item{
+    margin-top: 1.5rem;
+    span{
+        padding-left: 1rem;
+    }
+}
+        
+        
+    }
+
+}
