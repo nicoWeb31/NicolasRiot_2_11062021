@@ -1,28 +1,26 @@
-
-.menu{
-    position: relative;
-    height: 70rem;
-    border-radius: 4rem;
+.menu {
+    position: relative; //avoir mentor
+    height: 100%;    
+    border-top-left-radius: 4rem;
+    border-top-right-radius: 4rem;
     margin-top: -2rem;
     top: -5rem;
-    background-color : #fff;
+    background-color: rgb(247, 247, 247);
+    padding:4rem 3.5rem ;
 
-    
-    &__title-block{
-        position: absolute;
+
+    &__title-block {
+        position: relative;
         display: block;
         width: 100%;
-
-        &-content{
-            padding: 3.5rem;
-        }
+        // padding: 2.5rem;
 
         &-icone {
             display: block;
             position: absolute;
-            right : 3rem;
-            top : 50%rem;
-            transform: translate(50%,50%);
+            right: 2rem;
+            top: 50%;
+            transform: translate(0%, -50%);
             cursor: pointer;
             i {
                 size: 4rem;
@@ -43,6 +41,65 @@
             }
         }
     }
+
+    &__entre {
+        &-title {
+            text-transform: uppercase;
+            position: relative;
+            display: inline-block;
+            color: $color-gc;
+            font-size: 1.8rem;
+            margin-top: 4rem;
+
+            // border-bottom: 2px solid $color-t;
+            &::before {
+                content: "";
+                position: absolute;
+                left: 0;
+                bottom: 0;
+                height: 2px;
+                width: 50%; /* or 100px */
+                border-bottom: 2px solid $color-t;
+            }
+        }
+    }
+
+    &__plat {
+        widows: 90px;
+        margin-top: 2rem;
+        // border: 1px solid black;
+        border-radius: 2rem;
+        padding: 1.5rem;
+        background: white;
+        box-shadow: 0px 10px 19px -4px rgba(0, 0, 0, 0.59);
+
+        &-title {
+            font-size: 1rem;
+        }
+
+        &-content {
+
+            display: flex;
+            justify-content: space-between;
+
+
+            &-description {
+                font-size: 1.8rem;
+                color: $color-gc;
+            }
+
+            &-tarif {
+                margin-left: 10rem;
+                font-size: 1.8rem;
+                font-weight: bold;
+            }
+        }
+    }
+
+    &__btn{
+        padding: 1.5rem 6rem !important;
+        margin-top: 4rem !important;
+        display: block;
+        margin: auto;
+    }
 }
-
-
