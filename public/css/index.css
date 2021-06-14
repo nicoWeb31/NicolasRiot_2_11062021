@@ -125,6 +125,51 @@
           display: inherit;
           color: #9356DC; }
 
+.headerMenu {
+  position: relative; }
+  .headerMenu__arrow {
+    display: inline;
+    position: absolute;
+    left: 10%;
+    top: 50%;
+    transform: translate(-50%, -50%); }
+
+.image {
+  z-index: 1; }
+  .image__img {
+    object-fit: cover;
+    width: 100%; }
+
+.menu {
+  position: relative;
+  height: 70rem;
+  border-radius: 4rem;
+  margin-top: -2rem;
+  top: -5rem;
+  background-color: #fff; }
+  .menu__title-block {
+    position: absolute;
+    display: block;
+    width: 100%; }
+    .menu__title-block-content {
+      padding: 3.5rem; }
+    .menu__title-block-icone {
+      display: block;
+      position: absolute;
+      right: 3rem;
+      top: 50%rem;
+      transform: translate(50%, 50%);
+      cursor: pointer; }
+      .menu__title-block-icone i {
+        size: 4rem; }
+      .menu__title-block-icone .fas {
+        display: none; }
+      .menu__title-block-icone:hover .far {
+        display: none; }
+      .menu__title-block-icone:hover .fas {
+        display: inherit;
+        color: #9356DC; }
+
 .sectionOne {
   display: flex;
   justify-content: space-evenly;
@@ -249,6 +294,51 @@
         .restaurants__card-content-icon:hover .fas {
           display: inherit;
           color: #9356DC; }
+
+.headerMenu {
+  position: relative; }
+  .headerMenu__arrow {
+    display: inline;
+    position: absolute;
+    left: 10%;
+    top: 50%;
+    transform: translate(-50%, -50%); }
+
+.image {
+  z-index: 1; }
+  .image__img {
+    object-fit: cover;
+    width: 100%; }
+
+.menu {
+  position: relative;
+  height: 70rem;
+  border-radius: 4rem;
+  margin-top: -2rem;
+  top: -5rem;
+  background-color: #fff; }
+  .menu__title-block {
+    position: absolute;
+    display: block;
+    width: 100%; }
+    .menu__title-block-content {
+      padding: 3.5rem; }
+    .menu__title-block-icone {
+      display: block;
+      position: absolute;
+      right: 3rem;
+      top: 50%rem;
+      transform: translate(50%, 50%);
+      cursor: pointer; }
+      .menu__title-block-icone i {
+        size: 4rem; }
+      .menu__title-block-icone .fas {
+        display: none; }
+      .menu__title-block-icone:hover .far {
+        display: none; }
+      .menu__title-block-icone:hover .fas {
+        display: inherit;
+        color: #9356DC; }
 
 .footer {
   font-size: 2rem;

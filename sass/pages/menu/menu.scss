@@ -1,0 +1,48 @@
+
+.menu{
+    position: relative;
+    height: 70rem;
+    border-radius: 4rem;
+    margin-top: -2rem;
+    top: -5rem;
+    background-color : #fff;
+
+    
+    &__title-block{
+        position: absolute;
+        display: block;
+        width: 100%;
+
+        &-content{
+            padding: 3.5rem;
+        }
+
+        &-icone {
+            display: block;
+            position: absolute;
+            right : 3rem;
+            top : 50%rem;
+            transform: translate(50%,50%);
+            cursor: pointer;
+            i {
+                size: 4rem;
+            }
+            .fas {
+                display: none;
+            }
+
+            &:hover {
+                .far {
+                    display: none;
+                }
+
+                .fas {
+                    display: inherit;
+                    color: $color-p;
+                }
+            }
+        }
+    }
+}
+
+

@@ -1,0 +1,17 @@
+.headerMenu {
+    position: relative;
+    
+    
+    &__arrow {
+
+
+        display: inline;
+        position: absolute;
+        left: 10%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+
+
+    }
+
+}
