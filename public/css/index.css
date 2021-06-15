@@ -1,5 +1,25 @@
 @import url("https://fonts.googleapis.com/css2?family=Shrikhand&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,300;1,400&display=swap");
+@keyframes fromBottom {
+  0% {
+    opacity: 0;
+    transform: translateY(1rem); }
+  100% {
+    opacity: 1;
+    transform: translateY(0px); } }
+
+/* --------------------------------- anim 1 --------------------------------- */
+/* ---------------------------------- anim2 --------------------------------- */
+@keyframes fromBottom {
+  0% {
+    opacity: 0;
+    transform: translateY(1rem); }
+  100% {
+    opacity: 1;
+    transform: translateY(0px); } }
+
+/* --------------------------------- anim 1 --------------------------------- */
+/* ---------------------------------- anim2 --------------------------------- */
 .sectionOne {
   display: flex;
   justify-content: space-evenly;
@@ -29,6 +49,16 @@
       background: linear-gradient(166deg, rgba(255, 121, 218, 0.7) 0%, #9356dc 100%);
       box-shadow: 0px 10px 19px 3px rgba(0, 0, 0, 0.6); }
 
+@keyframes fromBottom {
+  0% {
+    opacity: 0;
+    transform: translateY(1rem); }
+  100% {
+    opacity: 1;
+    transform: translateY(0px); } }
+
+/* --------------------------------- anim 1 --------------------------------- */
+/* ---------------------------------- anim2 --------------------------------- */
 .sectionTwo {
   display: flex;
   flex-direction: column;
@@ -186,10 +216,10 @@
       /* or 100px */
       border-bottom: 2px solid #99E2D0; }
   .menu__plat {
-    widows: 90px;
+    display: block;
     margin-top: 2rem;
     border-radius: 2rem;
-    padding: 1.5rem;
+    padding: 1.6rem;
     background: white;
     box-shadow: 0px 10px 19px -4px rgba(0, 0, 0, 0.59); }
     .menu__plat-title {
@@ -210,6 +240,24 @@
     display: block;
     margin: auto; }
 
+@keyframes fromBottom {
+  0% {
+    opacity: 0;
+    transform: translateY(1rem); }
+  100% {
+    opacity: 1;
+    transform: translateY(0px); } }
+
+@keyframes fromBottom {
+  0% {
+    opacity: 0;
+    transform: translateY(1rem); }
+  100% {
+    opacity: 1;
+    transform: translateY(0px); } }
+
+/* --------------------------------- anim 1 --------------------------------- */
+/* ---------------------------------- anim2 --------------------------------- */
 .sectionOne {
   display: flex;
   justify-content: space-evenly;
@@ -239,6 +287,16 @@
       background: linear-gradient(166deg, rgba(255, 121, 218, 0.7) 0%, #9356dc 100%);
       box-shadow: 0px 10px 19px 3px rgba(0, 0, 0, 0.6); }
 
+@keyframes fromBottom {
+  0% {
+    opacity: 0;
+    transform: translateY(1rem); }
+  100% {
+    opacity: 1;
+    transform: translateY(0px); } }
+
+/* --------------------------------- anim 1 --------------------------------- */
+/* ---------------------------------- anim2 --------------------------------- */
 .sectionTwo {
   display: flex;
   flex-direction: column;
@@ -396,10 +454,10 @@
       /* or 100px */
       border-bottom: 2px solid #99E2D0; }
   .menu__plat {
-    widows: 90px;
+    display: block;
     margin-top: 2rem;
     border-radius: 2rem;
-    padding: 1.5rem;
+    padding: 1.6rem;
     background: white;
     box-shadow: 0px 10px 19px -4px rgba(0, 0, 0, 0.59); }
     .menu__plat-title {
@@ -437,6 +495,16 @@
       .footer__info-item span {
         padding-left: 1rem; }
 
+@keyframes fromBottom {
+  0% {
+    opacity: 0;
+    transform: translateY(1rem); }
+  100% {
+    opacity: 1;
+    transform: translateY(0px); } }
+
+/* --------------------------------- anim 1 --------------------------------- */
+/* ---------------------------------- anim2 --------------------------------- */
 .header {
   width: 100%; }
   .header__title-main {
@@ -489,7 +557,7 @@ html {
   font-family: "Shrikhand", cursive; }
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   max-width: 1500px;
   margin: auto;
   box-sizing: border-box; }
@@ -508,3 +576,63 @@ main {
   .btn-main:hover {
     background: linear-gradient(166deg, rgba(255, 121, 218, 0.7) 0%, #9356dc 100%);
     box-shadow: 0px 10px 19px 3px rgba(0, 0, 0, 0.6); }
+
+.element-anim1 {
+  animation-name: fromBottom;
+  animation-duration: 0.8s;
+  animation-delay: 0;
+  animation-timing-function: cubic-bezier(0.37, 0.89, 0, 0.84); }
+
+.element-anim2 {
+  animation-name: fromBottom;
+  animation-duration: 0.8s;
+  animation-delay: 0.1s;
+  animation-timing-function: cubic-bezier(0.37, 0.89, 0, 0.84); }
+
+.element-anim3 {
+  animation-name: fromBottom;
+  animation-duration: 0.8s;
+  animation-delay: 0.2s;
+  animation-timing-function: cubic-bezier(0.37, 0.89, 0, 0.84); }
+
+.element-anim4 {
+  animation-name: fromBottom;
+  animation-duration: 0.8s;
+  animation-delay: 0.3s;
+  animation-timing-function: cubic-bezier(0.37, 0.89, 0, 0.84); }
+
+.element-anim5 {
+  animation-name: fromBottom;
+  animation-duration: 0.8s;
+  animation-delay: 0.4s;
+  animation-timing-function: cubic-bezier(0.37, 0.89, 0, 0.84); }
+
+.element-anim6 {
+  animation-name: fromBottom;
+  animation-duration: 0.8s;
+  animation-delay: 0.5s;
+  animation-timing-function: cubic-bezier(0.37, 0.89, 0, 0.84); }
+
+.element-anim7 {
+  animation-name: fromBottom;
+  animation-duration: 0.8s;
+  animation-delay: 0.6s;
+  animation-timing-function: cubic-bezier(0.37, 0.89, 0, 0.84); }
+
+.element-anim8 {
+  animation-name: fromBottom;
+  animation-duration: 0.8s;
+  animation-delay: 0.7s;
+  animation-timing-function: cubic-bezier(0.37, 0.89, 0, 0.84); }
+
+.element-anim9 {
+  animation-name: fromBottom;
+  animation-duration: 0.8s;
+  animation-delay: 0.8s;
+  animation-timing-function: cubic-bezier(0.37, 0.89, 0, 0.84); }
+
+.element-anim10 {
+  animation-name: fromBottom;
+  animation-duration: 0.8s;
+  animation-delay: 0.9s;
+  animation-timing-function: cubic-bezier(0.37, 0.89, 0, 0.84); }

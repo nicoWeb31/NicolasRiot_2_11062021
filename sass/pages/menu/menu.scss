@@ -65,11 +65,16 @@
     }
 
     &__plat {
-        widows: 90px;
+
+        // keyframe
+        // @include animBottom(0);
+        // width : 90%;
+        display:block;
         margin-top: 2rem;
+
         // border: 1px solid black;
         border-radius: 2rem;
-        padding: 1.5rem;
+        padding: 1.6rem;
         background: white;
         box-shadow: 0px 10px 19px -4px rgba(0, 0, 0, 0.59);
 

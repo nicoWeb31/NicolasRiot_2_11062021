@@ -7,7 +7,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Shrikhand&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,300;1,400&display=swap");
 
-
 *,
 *::after,
 *::before {
@@ -38,25 +37,22 @@ html {
     }
 }
 
-
-
 // typo
-.title-shi{
+.title-shi {
     font-family: "Shrikhand", cursive;
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     max-width: 1500px;
     margin: auto;
     box-sizing: border-box;
 }
-main{
-    background-color: rgb(247, 247, 247);// a voir mentor
+main {
+    background-color: rgb(247, 247, 247); // a voir mentor
 }
 
-
-//btn 
+//btn
 .btn-main {
     background: linear-gradient(
         166deg,
@@ -79,4 +75,42 @@ main{
 
         box-shadow: 0px 10px 19px 3px rgba(0, 0, 0, 0.6);
     }
+}
+
+//anim 1
+.element-anim1 {
+    @include animBottom(0);
+}
+
+.element-anim2 {
+    @include animBottom(0.1s);
+}
+
+.element-anim3 {
+    @include animBottom(0.2s);
+}
+
+.element-anim4 {
+    @include animBottom(0.3s);
+}
+
+.element-anim5 {
+    @include animBottom(0.4s);
+}
+
+.element-anim6 {
+    @include animBottom(0.5s);
+}
+.element-anim7 {
+    @include animBottom(0.6s);
+}
+.element-anim8 {
+    @include animBottom(0.7s);
+}
+.element-anim9 {
+    @include animBottom(0.8s);
+}
+
+.element-anim10 {
+    @include animBottom(0.9s);
 }
