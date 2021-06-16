@@ -218,6 +218,7 @@
   .menu__plat {
     display: block;
     margin-top: 2rem;
+    cursor: pointer;
     border-radius: 2rem;
     padding: 1.6rem;
     background: white;
@@ -456,6 +457,7 @@
   .menu__plat {
     display: block;
     margin-top: 2rem;
+    cursor: pointer;
     border-radius: 2rem;
     padding: 1.6rem;
     background: white;
@@ -581,58 +583,58 @@ main {
   animation-name: fromBottom;
   animation-duration: 0.8s;
   animation-delay: 0;
-  animation-timing-function: cubic-bezier(0.37, 0.89, 0, 0.84); }
+  animation-timing-function: cubic-bezier(0.76, 0.22, 0.75, 0.87); }
 
 .element-anim2 {
   animation-name: fromBottom;
   animation-duration: 0.8s;
   animation-delay: 0.1s;
-  animation-timing-function: cubic-bezier(0.37, 0.89, 0, 0.84); }
+  animation-timing-function: cubic-bezier(0.76, 0.22, 0.75, 0.87); }
 
 .element-anim3 {
   animation-name: fromBottom;
   animation-duration: 0.8s;
   animation-delay: 0.2s;
-  animation-timing-function: cubic-bezier(0.37, 0.89, 0, 0.84); }
+  animation-timing-function: cubic-bezier(0.76, 0.22, 0.75, 0.87); }
 
 .element-anim4 {
   animation-name: fromBottom;
   animation-duration: 0.8s;
   animation-delay: 0.3s;
-  animation-timing-function: cubic-bezier(0.37, 0.89, 0, 0.84); }
+  animation-timing-function: cubic-bezier(0.76, 0.22, 0.75, 0.87); }
 
 .element-anim5 {
   animation-name: fromBottom;
   animation-duration: 0.8s;
   animation-delay: 0.4s;
-  animation-timing-function: cubic-bezier(0.37, 0.89, 0, 0.84); }
+  animation-timing-function: cubic-bezier(0.76, 0.22, 0.75, 0.87); }
 
 .element-anim6 {
   animation-name: fromBottom;
   animation-duration: 0.8s;
   animation-delay: 0.5s;
-  animation-timing-function: cubic-bezier(0.37, 0.89, 0, 0.84); }
+  animation-timing-function: cubic-bezier(0.76, 0.22, 0.75, 0.87); }
 
 .element-anim7 {
   animation-name: fromBottom;
   animation-duration: 0.8s;
   animation-delay: 0.6s;
-  animation-timing-function: cubic-bezier(0.37, 0.89, 0, 0.84); }
+  animation-timing-function: cubic-bezier(0.76, 0.22, 0.75, 0.87); }
 
 .element-anim8 {
   animation-name: fromBottom;
   animation-duration: 0.8s;
   animation-delay: 0.7s;
-  animation-timing-function: cubic-bezier(0.37, 0.89, 0, 0.84); }
+  animation-timing-function: cubic-bezier(0.76, 0.22, 0.75, 0.87); }
 
 .element-anim9 {
   animation-name: fromBottom;
   animation-duration: 0.8s;
   animation-delay: 0.8s;
-  animation-timing-function: cubic-bezier(0.37, 0.89, 0, 0.84); }
+  animation-timing-function: cubic-bezier(0.76, 0.22, 0.75, 0.87); }
 
 .element-anim10 {
   animation-name: fromBottom;
   animation-duration: 0.8s;
   animation-delay: 0.9s;
-  animation-timing-function: cubic-bezier(0.37, 0.89, 0, 0.84); }
+  animation-timing-function: cubic-bezier(0.76, 0.22, 0.75, 0.87); }

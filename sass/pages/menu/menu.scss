@@ -71,7 +71,7 @@
         // width : 90%;
         display:block;
         margin-top: 2rem;
-
+        cursor: pointer;
         // border: 1px solid black;
         border-radius: 2rem;
         padding: 1.6rem;
@@ -99,6 +99,16 @@
                 font-weight: bold;
             }
         }
+
+        // &:hover::before{
+        //     content: "«";
+        //     color: blue;
+        // }
+
+        // &:hover::after{
+        //     content: "Au piment d'Espe...";
+        //     color: blue;
+        // }
     }
 
     &__btn{

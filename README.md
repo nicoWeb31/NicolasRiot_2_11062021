@@ -1,4 +1,7 @@
-# NicolasRiot_3_11062021
+npm i 
+npm run compile:sass
+
+
  Contenu des pages
 Page d’accueil (x1)
 ● Affichage de la localisation des restaurants. À terme il sera possible de choisir sa
