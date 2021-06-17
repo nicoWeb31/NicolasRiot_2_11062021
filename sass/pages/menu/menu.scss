@@ -1,13 +1,12 @@
 .menu {
     position: relative; //avoir mentor
-    height: 100%;    
+    height: 100%;
     border-top-left-radius: 4rem;
     border-top-right-radius: 4rem;
     margin-top: -2rem;
     top: -5rem;
     background-color: rgb(247, 247, 247);
-    padding:4rem 3.5rem ;
-
+    padding: 4rem 3.5rem;
 
     &__title-block {
         position: relative;
@@ -65,11 +64,10 @@
     }
 
     &__plat {
-
         // keyframe
         // @include animBottom(0);
         // width : 90%;
-        display:block;
+        display: block;
         margin-top: 2rem;
         cursor: pointer;
         // border: 1px solid black;
@@ -83,10 +81,8 @@
         }
 
         &-content {
-
             display: flex;
             justify-content: space-between;
-
 
             &-description {
                 font-size: 1.8rem;
@@ -111,7 +107,7 @@
         // }
     }
 
-    &__btn{
+    &__btn {
         padding: 1.5rem 6rem !important;
         margin-top: 4rem !important;
         display: block;
