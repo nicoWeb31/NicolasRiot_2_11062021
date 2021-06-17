@@ -11,7 +11,7 @@
             integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
             crossorigin="anonymous"
         />
-        <link rel="stylesheet" href="/public/css/index.css" />
+        <link rel="stylesheet" href="public/css/index.css" />
 
         <title>La pallette du gout</title>
     </head>
@@ -29,7 +29,7 @@
 
         <section class="image">
             <img
-                src="/public/img/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg"
+                src="public/img/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg"
                 alt="pallette_du_gout"
                 class="image__img"
             />
@@ -48,6 +48,7 @@
                             menu__title-block-icone
                         "
                     >
+                    <!-- ---------------------------- voir fa-stack ---------------------------- -->
                         <i class="far fa-heart fa-3x"></i>
                         <i class="fas fa-heart fa-3x"></i>
                     </div>
@@ -67,15 +68,23 @@
                         </div>
                     </div>
 
-                    <div class="menu__plat element-anim2">
-                        <h4 class="menu__plat-title">
-                            Foie gras de canard mi-cuit
-                        </h4>
-                        <div class="menu__plat-content">
-                            <p class="menu__plat-content-description">
-                                Et ses copeaux de truffe noire
-                            </p>
-                            <span class="menu__plat-content-tarif">35€</span>
+                    <!-- --------------------- add div plus img en dessou  wrap avec une autre div---------------------- -->
+                    <div class = 'menu__plat-wrapper'>
+
+                        <div class="menu__plat element-anim2">
+                            <h4 class="menu__plat-title">
+                                Foie gras de canard mi-cuit
+                            </h4>
+                            <div class="menu__plat-content">
+                                <p class="menu__plat-content-description">
+                                    Et ses copeaux de truffe noire
+                                </p>
+                                <span class="menu__plat-content-tarif">35€</span>
+                            </div>
+                        </div>
+
+                        <div class="menu__plat-image">
+
                         </div>
                     </div>
 
