@@ -4,7 +4,7 @@
   "description": "oc p3",
   "main": "index.js",
   "scripts": {
-    "compile:sass": "node-sass sass/main.scss public/css/index.css"
+    "compile:sass": "node-sass sass/main.scss public/css/index.css -w"
   },
   "repository": {
     "type": "git",
