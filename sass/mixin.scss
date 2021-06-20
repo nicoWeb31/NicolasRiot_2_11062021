@@ -39,3 +39,8 @@
 }
 
 /* ---------------------------------- anim2 --------------------------------- */
+@mixin heatT{
+    animation-name: heatAppear;
+    animation-duration: 1s;
+
+}

@@ -1,0 +1,59 @@
+@import "../keyFrame.scss";
+
+.loader-wrapper {
+    position : absolute;
+    width: 100%;
+    height: 100vh;
+    z-index:1000;
+    animation: hidden linear 4s;
+    animation-iteration-count: 1;
+    animation: bgColor linear 4s; 
+
+}
+
+
+.loader {
+    position : absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    z-index: 11111;
+    position: absolute;
+    animation: rotation 3s linear infinite;
+    animation-iteration-count: 1;
+
+
+
+
+
+    .c{
+        transform: scale(0);
+        animation: scaleL 2s linear infinite;
+    animation-iteration-count: 1;
+
+        height: 5rem;
+        width: 5rem;
+        border-radius: 50%;
+        margin: -1rem;
+    }        
+    
+    .c1 {
+        background-color: $color-p;
+
+        animation-delay: 1s;
+    }
+    .c2 {
+
+        background-color: $color-s;
+        animation-delay: 2s;
+
+    }
+    .c3 {
+
+        background-color: $color-t;
+        animation-delay:1s
+
+    }
+}

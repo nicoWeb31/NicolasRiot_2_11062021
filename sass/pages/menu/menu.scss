@@ -20,6 +20,7 @@
             right: 2rem;
             top: 50%;
             transform: translate(0%, -50%);
+
             cursor: pointer;
             i {
                 size: 4rem;
@@ -64,47 +65,77 @@
     }
 
     &__plat {
-        // keyframe
-        // @include animBottom(0);
-        // width : 90%;
-        display: block;
-        margin-top: 2rem;
+        background-color: #fff;
+        border-radius: 1.5rem;
+        margin: 1rem;
+        padding: 1rem;
+        box-shadow: 4px 4px 6px #aaa;
+        position: relative;
         cursor: pointer;
-        // border: 1px solid black;
-        border-radius: 2rem;
-        padding: 1.6rem;
-        background: white;
-        box-shadow: 0px 10px 19px -4px rgba(0, 0, 0, 0.59);
-
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        transition: padding-right 450ms ease-in-out;
         &-title {
             font-size: 1.6rem;
+            text-overflow: ellipsis;
+            display: inline;
+            overflow: hidden;
         }
 
         &-content {
             display: flex;
             justify-content: space-between;
-
+            align-items: center;
+            line-height: 1.5rem;
             &-description {
                 font-size: 1.8rem;
                 color: $color-gc;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                display: inline;
             }
 
             &-tarif {
-                margin-left: 10rem;
+                // margin-left: 10rem;
                 font-size: 1.8rem;
                 font-weight: bold;
+                margin-left: auto;
             }
         }
 
-        // &:hover::before{
-        //     content: "«";
-        //     color: blue;
-        // }
+        &:hover {
+            padding-right: 7.5rem;
+        }
+        &:hover .icone {
+            opacity: 1;
+            transform: translate(-6rem);
+        }
+        &:hover .fa-check-circle {
+            transform: rotate(360deg);
+        }
 
-        // &:hover::after{
-        //     content: "Au piment d'Espe...";
-        //     color: blue;
-        // }
+        .icone {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: $color-t;
+            width: 5rem;
+            height: 100%;
+            border-top-right-radius: 1.5rem;
+            border-bottom-right-radius: 1.5rem;
+            position: absolute;
+            padding: 2rem;
+            right: -6rem;
+            top: 0;
+            opacity: 0;
+            transition: transform 330ms ease-in-out;
+            z-index: 100;
+            .fa-check-circle {
+                color: #fff;
+                transition: transform 500ms ease-in-out;
+            }
+        }
     }
 
     &__btn {

@@ -47,6 +47,7 @@ body {
     max-width: 1500px;
     margin: auto;
     box-sizing: border-box;
+    
 }
 main {
     background-color: rgb(247, 247, 247); // a voir mentor
@@ -114,3 +115,12 @@ main {
 .element-anim10 {
     @include animBottom(0.9s);
 }
+
+//heart comming
+.heartComming {
+    &:hover {
+        @include heatT;
+    }
+}
+
+// loader
