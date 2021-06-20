@@ -1009,6 +1009,9 @@ a {
 
 html {
   font-size: 62.5%; }
+  @media (min-width: 37.5em) {
+    html {
+      font-size: 5%; } }
   @media (max-width: 112.5em) {
     html {
       font-size: 75%; } }

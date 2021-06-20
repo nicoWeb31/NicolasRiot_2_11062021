@@ -21,11 +21,13 @@ a {
     color: inherit;
 }
 
-//default 16px
 html {
     //10px
     font-size: 62.5%;
 
+    @include respond(phone) {
+        font-size: 5%;
+    }
     @include respond(big-desktop) {
         font-size: 75%;
     }
@@ -47,7 +49,6 @@ body {
     max-width: 1500px;
     margin: auto;
     box-sizing: border-box;
-    
 }
 main {
     background-color: rgb(247, 247, 247); // a voir mentor
