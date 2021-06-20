@@ -1,16 +1,18 @@
 @import "../../variables";
 
 .restaurants {
-    display: flex;
     background-color: rgba($color-gc, 0.2);
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
     padding: 2rem;
-    @include respond(tab-land) {
-        
-        margin:3rem;
-        flex-direction: row;
+
+    &__content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        @include respond(tab-land) {
+            margin: 3rem;
+            flex-direction: row;
+        }
     }
 
     &__title {
@@ -19,28 +21,28 @@
         padding: 2rem;
     }
 
-
-
     &__card {
         width: 90%;
         border-radius: 2rem;
         background-color: white;
         margin: 2rem 0;
+        @include respond(tab-land) {
+            margin: 2rem;
+        }
 
-        &-img-content{
+        &-img-content {
             position: relative;
-            
-            span{
+
+            span {
                 position: absolute;
                 top: 1rem;
                 right: 1rem;
                 font-size: 1.5rem;
 
                 color: green;
-                padding: .5rem;
-                background-color: rgba($color-t,1);
+                padding: 0.5rem;
+                background-color: rgba($color-t, 1);
             }
-
         }
         &-img {
             height: 22rem;
@@ -49,7 +51,6 @@
             object-fit: cover;
             width: 100%;
         }
-
 
         &-content {
             position: relative;
@@ -64,9 +65,9 @@
             &-icon {
                 display: block;
                 position: absolute;
-                right : 3rem;
-                top : 2rem;
-                transform: translate(50%,50%);
+                right: 3rem;
+                top: 2rem;
+                transform: translate(50%, 50%);
                 cursor: pointer;
                 i {
                     size: 4rem;
@@ -74,12 +75,12 @@
                 .fas {
                     display: none;
                 }
-    
+
                 &:hover {
                     .far {
                         display: none;
                     }
-    
+
                     .fas {
                         display: inherit;
                         color: $color-p;

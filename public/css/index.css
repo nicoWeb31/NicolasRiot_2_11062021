@@ -205,16 +205,17 @@
         color: #9356DC; }
 
 .restaurants {
-  display: flex;
   background-color: rgba(151, 156, 156, 0.2);
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
   padding: 2rem; }
-  @media (min-width: 75em) {
-    .restaurants {
-      margin: 3rem;
-      flex-direction: row; } }
+  .restaurants__content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; }
+    @media (min-width: 75em) {
+      .restaurants__content {
+        margin: 3rem;
+        flex-direction: row; } }
   .restaurants__title {
     align-self: flex-start;
     font-size: 3rem;
@@ -224,6 +225,9 @@
     border-radius: 2rem;
     background-color: white;
     margin: 2rem 0; }
+    @media (min-width: 75em) {
+      .restaurants__card {
+        margin: 2rem; } }
     .restaurants__card-img-content {
       position: relative; }
       .restaurants__card-img-content span {
@@ -232,7 +236,7 @@
         right: 1rem;
         font-size: 1.5rem;
         color: green;
-        padding: .5rem;
+        padding: 0.5rem;
         background-color: #99e2d0; }
     .restaurants__card-img {
       height: 22rem;
@@ -592,16 +596,17 @@
         color: #9356DC; }
 
 .restaurants {
-  display: flex;
   background-color: rgba(151, 156, 156, 0.2);
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
   padding: 2rem; }
-  @media (min-width: 75em) {
-    .restaurants {
-      margin: 3rem;
-      flex-direction: row; } }
+  .restaurants__content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; }
+    @media (min-width: 75em) {
+      .restaurants__content {
+        margin: 3rem;
+        flex-direction: row; } }
   .restaurants__title {
     align-self: flex-start;
     font-size: 3rem;
@@ -611,6 +616,9 @@
     border-radius: 2rem;
     background-color: white;
     margin: 2rem 0; }
+    @media (min-width: 75em) {
+      .restaurants__card {
+        margin: 2rem; } }
     .restaurants__card-img-content {
       position: relative; }
       .restaurants__card-img-content span {
@@ -619,7 +627,7 @@
         right: 1rem;
         font-size: 1.5rem;
         color: green;
-        padding: .5rem;
+        padding: 0.5rem;
         background-color: #99e2d0; }
     .restaurants__card-img {
       height: 22rem;
