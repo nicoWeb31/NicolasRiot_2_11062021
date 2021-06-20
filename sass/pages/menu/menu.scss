@@ -76,6 +76,12 @@
         text-overflow: ellipsis;
         overflow: hidden;
         transition: padding-right 450ms ease-in-out;
+        @include respond(tab-land) {
+            height: 10rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+        }
         &-title {
             font-size: 1.6rem;
             text-overflow: ellipsis;
@@ -88,12 +94,17 @@
             justify-content: space-between;
             align-items: center;
             line-height: 1.5rem;
+            @include respond(tab-land) {
+            }
+
             &-description {
                 font-size: 1.8rem;
                 color: $color-gc;
                 overflow: hidden;
                 text-overflow: ellipsis;
                 display: inline;
+                @include respond(tab-land) {
+                }
             }
 
             &-tarif {
@@ -143,5 +154,31 @@
         margin-top: 4rem !important;
         display: block;
         margin: auto;
+    }
+}
+
+// bloc postion
+.menu__content {
+    @include respond(tab-land) {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+}
+
+
+.menu__content-entre, .menu__content-plat, .menu__content-dessert{
+
+    @include respond(tab-land) {
+        cursor: pointer;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        width:50rem;
+        transition: padding-right 450ms ease-in-out;
+
+        &:hover {
+            padding-right: 0;
+        }
     }
 }

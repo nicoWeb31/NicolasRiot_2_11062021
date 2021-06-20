@@ -341,6 +341,12 @@
     text-overflow: ellipsis;
     overflow: hidden;
     transition: padding-right 450ms ease-in-out; }
+    @media (min-width: 75em) {
+      .menu__plat {
+        height: 10rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly; } }
     .menu__plat-title {
       font-size: 1.6rem;
       text-overflow: ellipsis;
@@ -392,6 +398,23 @@
     margin-top: 4rem !important;
     display: block;
     margin: auto; }
+
+@media (min-width: 75em) {
+  .menu__content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly; } }
+
+@media (min-width: 75em) {
+  .menu__content-entre, .menu__content-plat, .menu__content-dessert {
+    cursor: pointer;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    width: 50rem;
+    transition: padding-right 450ms ease-in-out; }
+    .menu__content-entre:hover, .menu__content-plat:hover, .menu__content-dessert:hover {
+      padding-right: 0; } }
 
 @keyframes fromBottom {
   0% {
@@ -732,6 +755,12 @@
     text-overflow: ellipsis;
     overflow: hidden;
     transition: padding-right 450ms ease-in-out; }
+    @media (min-width: 75em) {
+      .menu__plat {
+        height: 10rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly; } }
     .menu__plat-title {
       font-size: 1.6rem;
       text-overflow: ellipsis;
@@ -783,6 +812,23 @@
     margin-top: 4rem !important;
     display: block;
     margin: auto; }
+
+@media (min-width: 75em) {
+  .menu__content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly; } }
+
+@media (min-width: 75em) {
+  .menu__content-entre, .menu__content-plat, .menu__content-dessert {
+    cursor: pointer;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    width: 50rem;
+    transition: padding-right 450ms ease-in-out; }
+    .menu__content-entre:hover, .menu__content-plat:hover, .menu__content-dessert:hover {
+      padding-right: 0; } }
 
 .footer {
   position: sticky;
@@ -963,15 +1009,15 @@ a {
 
 html {
   font-size: 62.5%; }
-  @media (min-width: 75em) {
-    html {
-      font-size: 56.25%; } }
-  @media (min-width: 56.25em) {
-    html {
-      font-size: 50%; } }
   @media (max-width: 112.5em) {
     html {
       font-size: 75%; } }
+  @media (min-width: 56.25em) {
+    html {
+      font-size: 50%; } }
+  @media (min-width: 75em) {
+    html {
+      font-size: 56.25%; } }
 
 .title-shi {
   font-family: "Shrikhand", cursive; }
