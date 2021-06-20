@@ -36,6 +36,7 @@
     background: rgba(37, 30, 30, 0.781);
     opacity: 1; }
   80% {
+    background: rgba(37, 30, 30, 0.781);
     opacity: 0.8; }
   100% {
     opacity: 0; } }
@@ -78,6 +79,7 @@
     background: rgba(37, 30, 30, 0.781);
     opacity: 1; }
   80% {
+    background: rgba(37, 30, 30, 0.781);
     opacity: 0.8; }
   100% {
     opacity: 0; } }
@@ -149,6 +151,7 @@
     background: rgba(37, 30, 30, 0.781);
     opacity: 1; }
   80% {
+    background: rgba(37, 30, 30, 0.781);
     opacity: 0.8; }
   100% {
     opacity: 0; } }
@@ -411,6 +414,7 @@
     background: rgba(37, 30, 30, 0.781);
     opacity: 1; }
   80% {
+    background: rgba(37, 30, 30, 0.781);
     opacity: 0.8; }
   100% {
     opacity: 0; } }
@@ -451,6 +455,7 @@
     background: rgba(37, 30, 30, 0.781);
     opacity: 1; }
   80% {
+    background: rgba(37, 30, 30, 0.781);
     opacity: 0.8; }
   100% {
     opacity: 0; } }
@@ -522,6 +527,7 @@
     background: rgba(37, 30, 30, 0.781);
     opacity: 1; }
   80% {
+    background: rgba(37, 30, 30, 0.781);
     opacity: 0.8; }
   100% {
     opacity: 0; } }
@@ -801,6 +807,7 @@
     background: rgba(37, 30, 30, 0.781);
     opacity: 1; }
   80% {
+    background: rgba(37, 30, 30, 0.781);
     opacity: 0.8; }
   100% {
     opacity: 0; } }
@@ -867,6 +874,7 @@
     background: rgba(37, 30, 30, 0.781);
     opacity: 1; }
   80% {
+    background: rgba(37, 30, 30, 0.781);
     opacity: 0.8; }
   100% {
     opacity: 0; } }
@@ -878,7 +886,9 @@
   z-index: 1000;
   animation: hidden linear 4s;
   animation-iteration-count: 1;
-  animation: bgColor linear 4s; }
+  animation: bgColor linear 4s;
+  max-width: 1500px;
+  margin: auto; }
 
 .loader {
   position: absolute;
