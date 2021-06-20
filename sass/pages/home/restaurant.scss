@@ -7,6 +7,11 @@
     align-items: center;
     flex-direction: column;
     padding: 2rem;
+    @include respond(tab-land) {
+        
+        margin:3rem;
+        flex-direction: row;
+    }
 
     &__title {
         align-self: flex-start;

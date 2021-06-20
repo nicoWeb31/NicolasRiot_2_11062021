@@ -1,25 +1,25 @@
 @import "./keyFrame";
 
 @mixin respond($breakPoint) {
-    @if $breakPoint == phone {
-        @media (max-width: 37.5em) {
+    @if $breakPoint == big-desktop {
+        @media (max-width: 112.5em) {
             @content;
-        } //600px
-    }
-    @if $breakPoint == tab-port {
-        @media (max-width: 56.25em) {
-            @content;
-        } //900px
+        } //1800px
     }
     @if $breakPoint == tab-land {
-        @media (max-width: 75em) {
+        @media (min-width: 75em) {
             @content;
         } //1200px
     }
-    @if $breakPoint == big-desktop {
-        @media (min-width: 112.5em) {
+    @if $breakPoint == tab-port {
+        @media (min-width: 56.25em) {
             @content;
-        } //1800px
+        } //900px
+    }
+    @if $breakPoint == phone {
+        @media (min-width: 37.5em) {
+            @content;
+        } //600px
     }
 }
 
