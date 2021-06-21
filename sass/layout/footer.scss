@@ -1,33 +1,35 @@
 @import "../variables";
 
 .footer {
-    position: sticky;
+    // position: sticky;
     font-size: 2rem;
     background-color: $color-gf;
     color: #fff;
     padding: 3rem;
 
-    &__title{
+    @include respond(tab-land) {
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    &__title {
         font-size: 3rem;
         margin-bottom: 4rem;
     }
 
-    &__info{
+    &__info {
         margin-top: 1rem;
         font-weight: 600;
-        
-        &-list{
 
-            
+        &-list {
         }
-&-item{
-    margin-top: 1.5rem;
-    span{
-        padding-left: 1rem;
+        &-item {
+            margin-top: 1.5rem;
+            span {
+                padding-left: 1rem;
+            }
+        }
     }
-}
-        
-        
-    }
-
 }

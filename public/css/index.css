@@ -855,11 +855,15 @@
       padding-right: 0; } }
 
 .footer {
-  position: sticky;
   font-size: 2rem;
   background-color: #343636;
   color: #fff;
   padding: 3rem; }
+  @media (min-width: 56.6em) {
+    .footer {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly; } }
   .footer__title {
     font-size: 3rem;
     margin-bottom: 4rem; }
