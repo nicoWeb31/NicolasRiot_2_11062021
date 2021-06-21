@@ -24,18 +24,21 @@ a {
 html {
     //10px
     font-size: 62.5%;
-
     @include respond(phone) {
-        font-size: 5%;
-    }
-    @include respond(big-desktop) {
-        font-size: 75%;
+        /* ------------------- background-color: rgb(44, 59, 59); ------------------- */
+        font-size: 55.5%;
     }
     @include respond(tab-port) {
         font-size: 50%;
+        /* ------------------- background-color: rgb(87, 88, 189); ------------------ */
     }
     @include respond(tab-land) {
         font-size: 56.25%;
+        /* ------------------ background-color: rgb(187, 145, 56); ------------------ */
+    }
+    @include respond(big-desktop) {
+        font-size: 75%;
+        /* ------------------- background-color: rgb(95, 185, 95); ------------------ */
     }
 }
 

@@ -164,7 +164,7 @@
   padding: 4rem;
   justify-content: center;
   align-items: center; }
-  @media (min-width: 75em) {
+  @media (min-width: 56.6em) {
     .sectionTwo {
       flex-direction: row;
       margin: 1rem; } }
@@ -185,7 +185,7 @@
     width: 95%;
     border: 0px;
     box-shadow: 0px 10px 19px -4px rgba(0, 0, 0, 0.3); }
-    @media (min-width: 75em) {
+    @media (min-width: 56.6em) {
       .sectionTwo__btn {
         margin: 3rem; } }
     .sectionTwo__btn-number {
@@ -212,7 +212,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column; }
-    @media (min-width: 75em) {
+    @media (min-width: 56.6em) {
       .restaurants__content {
         margin: 3rem;
         flex-direction: row; } }
@@ -225,7 +225,7 @@
     border-radius: 2rem;
     background-color: white;
     margin: 2rem 0; }
-    @media (min-width: 75em) {
+    @media (min-width: 56.6em) {
       .restaurants__card {
         margin: 2rem; } }
     .restaurants__card-img-content {
@@ -341,7 +341,7 @@
     text-overflow: ellipsis;
     overflow: hidden;
     transition: padding-right 450ms ease-in-out; }
-    @media (min-width: 75em) {
+    @media (min-width: 56.6em) {
       .menu__plat {
         height: 10rem;
         display: flex;
@@ -399,13 +399,13 @@
     display: block;
     margin: auto; }
 
-@media (min-width: 75em) {
+@media (min-width: 56.6em) {
   .menu__content {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly; } }
 
-@media (min-width: 75em) {
+@media (min-width: 56.6em) {
   .menu__content-entre, .menu__content-plat, .menu__content-dessert {
     cursor: pointer;
     white-space: nowrap;
@@ -578,7 +578,7 @@
   padding: 4rem;
   justify-content: center;
   align-items: center; }
-  @media (min-width: 75em) {
+  @media (min-width: 56.6em) {
     .sectionTwo {
       flex-direction: row;
       margin: 1rem; } }
@@ -599,7 +599,7 @@
     width: 95%;
     border: 0px;
     box-shadow: 0px 10px 19px -4px rgba(0, 0, 0, 0.3); }
-    @media (min-width: 75em) {
+    @media (min-width: 56.6em) {
       .sectionTwo__btn {
         margin: 3rem; } }
     .sectionTwo__btn-number {
@@ -626,7 +626,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column; }
-    @media (min-width: 75em) {
+    @media (min-width: 56.6em) {
       .restaurants__content {
         margin: 3rem;
         flex-direction: row; } }
@@ -639,7 +639,7 @@
     border-radius: 2rem;
     background-color: white;
     margin: 2rem 0; }
-    @media (min-width: 75em) {
+    @media (min-width: 56.6em) {
       .restaurants__card {
         margin: 2rem; } }
     .restaurants__card-img-content {
@@ -755,7 +755,7 @@
     text-overflow: ellipsis;
     overflow: hidden;
     transition: padding-right 450ms ease-in-out; }
-    @media (min-width: 75em) {
+    @media (min-width: 56.6em) {
       .menu__plat {
         height: 10rem;
         display: flex;
@@ -813,13 +813,13 @@
     display: block;
     margin: auto; }
 
-@media (min-width: 75em) {
+@media (min-width: 56.6em) {
   .menu__content {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly; } }
 
-@media (min-width: 75em) {
+@media (min-width: 56.6em) {
   .menu__content-entre, .menu__content-plat, .menu__content-dessert {
     cursor: pointer;
     white-space: nowrap;
@@ -1009,18 +1009,22 @@ a {
 
 html {
   font-size: 62.5%; }
+  @media (max-width: 37.5em) {
+    html {
+      /* ------------------- background-color: rgb(44, 59, 59); ------------------- */
+      font-size: 55.5%; } }
   @media (min-width: 37.5em) {
     html {
-      font-size: 5%; } }
-  @media (max-width: 112.5em) {
+      font-size: 50%;
+      /* ------------------- background-color: rgb(87, 88, 189); ------------------ */ } }
+  @media (min-width: 56.6em) {
     html {
-      font-size: 75%; } }
-  @media (min-width: 56.25em) {
+      font-size: 56.25%;
+      /* ------------------ background-color: rgb(187, 145, 56); ------------------ */ } }
+  @media (min-width: 75.5em) {
     html {
-      font-size: 50%; } }
-  @media (min-width: 75em) {
-    html {
-      font-size: 56.25%; } }
+      font-size: 75%;
+      /* ------------------- background-color: rgb(95, 185, 95); ------------------ */ } }
 
 .title-shi {
   font-family: "Shrikhand", cursive; }
