@@ -1,11 +1,7 @@
-.image{
-    
-    z-index:1;
-    &__img{
-
+.image {
+    z-index: 1;
+    &__img {
         object-fit: cover;
         width: 100%;
     }
-
-
 }
