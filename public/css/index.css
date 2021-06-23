@@ -271,8 +271,6 @@
         top: 2rem;
         transform: translate(50%, 50%);
         cursor: pointer; }
-        .restaurants__card-content-icon i {
-          size: 4rem; }
         .restaurants__card-content-icon .fas {
           display: none; }
         .restaurants__card-content-icon:hover .far {
@@ -316,8 +314,6 @@
       top: 50%;
       transform: translate(0%, -50%);
       cursor: pointer; }
-      .menu__title-block-icone i {
-        size: 4rem; }
       .menu__title-block-icone .fas {
         display: none; }
       .menu__title-block-icone:hover .far {
@@ -381,9 +377,6 @@
         margin-left: auto; }
     .menu__plat:hover {
       padding-right: 7.5rem; }
-    .menu__plat:hover .icone {
-      opacity: 1;
-      transform: translate(-6rem); }
     .menu__plat:hover .fa-check-circle {
       transform: rotate(360deg); }
     .menu__plat .icone {
@@ -405,6 +398,9 @@
       .menu__plat .icone .fa-check-circle {
         color: #fff;
         transition: transform 500ms ease-in-out; }
+    .menu__plat:hover .icone {
+      opacity: 1;
+      transform: translate(-6rem); }
   .menu__btn {
     padding: 1.5rem 6rem !important;
     margin-top: 4rem !important;
@@ -418,14 +414,18 @@
     justify-content: space-evenly; } }
 
 @media (min-width: 56.6em) {
-  .menu__content-entre, .menu__content-plat, .menu__content-dessert {
+  .menu__content-entre,
+  .menu__content-plat,
+  .menu__content-dessert {
     cursor: pointer;
     white-space: nowrap;
     text-overflow: ellipsis;
     overflow: hidden;
     width: 50rem;
     transition: padding-right 450ms ease-in-out; }
-    .menu__content-entre:hover, .menu__content-plat:hover, .menu__content-dessert:hover {
+    .menu__content-entre:hover,
+    .menu__content-plat:hover,
+    .menu__content-dessert:hover {
       padding-right: 0; } }
 
 @keyframes fromBottom {
@@ -697,8 +697,6 @@
         top: 2rem;
         transform: translate(50%, 50%);
         cursor: pointer; }
-        .restaurants__card-content-icon i {
-          size: 4rem; }
         .restaurants__card-content-icon .fas {
           display: none; }
         .restaurants__card-content-icon:hover .far {
@@ -742,8 +740,6 @@
       top: 50%;
       transform: translate(0%, -50%);
       cursor: pointer; }
-      .menu__title-block-icone i {
-        size: 4rem; }
       .menu__title-block-icone .fas {
         display: none; }
       .menu__title-block-icone:hover .far {
@@ -807,9 +803,6 @@
         margin-left: auto; }
     .menu__plat:hover {
       padding-right: 7.5rem; }
-    .menu__plat:hover .icone {
-      opacity: 1;
-      transform: translate(-6rem); }
     .menu__plat:hover .fa-check-circle {
       transform: rotate(360deg); }
     .menu__plat .icone {
@@ -831,6 +824,9 @@
       .menu__plat .icone .fa-check-circle {
         color: #fff;
         transition: transform 500ms ease-in-out; }
+    .menu__plat:hover .icone {
+      opacity: 1;
+      transform: translate(-6rem); }
   .menu__btn {
     padding: 1.5rem 6rem !important;
     margin-top: 4rem !important;
@@ -844,14 +840,18 @@
     justify-content: space-evenly; } }
 
 @media (min-width: 56.6em) {
-  .menu__content-entre, .menu__content-plat, .menu__content-dessert {
+  .menu__content-entre,
+  .menu__content-plat,
+  .menu__content-dessert {
     cursor: pointer;
     white-space: nowrap;
     text-overflow: ellipsis;
     overflow: hidden;
     width: 50rem;
     transition: padding-right 450ms ease-in-out; }
-    .menu__content-entre:hover, .menu__content-plat:hover, .menu__content-dessert:hover {
+    .menu__content-entre:hover,
+    .menu__content-plat:hover,
+    .menu__content-dessert:hover {
       padding-right: 0; } }
 
 .footer {
@@ -942,7 +942,7 @@
     width: 100%;
     color: #343636; }
     .header__title-secondary i {
-      margin: 0.5; }
+      margin: 0.5rem; }
     .header__title-secondary span {
       margin: 1rem; }
 
@@ -1088,7 +1088,7 @@ main {
 .element-anim1 {
   animation-name: fromBottom;
   animation-duration: 0.8s;
-  animation-delay: 0;
+  animation-delay: 0.01s;
   animation-timing-function: cubic-bezier(0.76, 0.22, 0.75, 0.87); }
 
 .element-anim2 {

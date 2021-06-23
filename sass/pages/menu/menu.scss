@@ -22,9 +22,6 @@
             transform: translate(0%, -50%);
 
             cursor: pointer;
-            i {
-                size: 4rem;
-            }
             .fas {
                 display: none;
             }
@@ -118,10 +115,6 @@
         &:hover {
             padding-right: 7.5rem;
         }
-        &:hover .icone {
-            opacity: 1;
-            transform: translate(-6rem);
-        }
         &:hover .fa-check-circle {
             transform: rotate(360deg);
         }
@@ -147,6 +140,10 @@
                 transition: transform 500ms ease-in-out;
             }
         }
+        &:hover .icone {
+            opacity: 1;
+            transform: translate(-6rem);
+        }
     }
 
     &__btn {
@@ -166,15 +163,15 @@
     }
 }
 
-
-.menu__content-entre, .menu__content-plat, .menu__content-dessert{
-
+.menu__content-entre,
+.menu__content-plat,
+.menu__content-dessert {
     @include respond(tab-land) {
         cursor: pointer;
         white-space: nowrap;
         text-overflow: ellipsis;
         overflow: hidden;
-        width:50rem;
+        width: 50rem;
         transition: padding-right 450ms ease-in-out;
 
         &:hover {

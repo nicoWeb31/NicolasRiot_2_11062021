@@ -84,7 +84,7 @@ main {
 
 //anim 1
 .element-anim1 {
-    @include animBottom(0);
+    @include animBottom(0.01s);
 }
 
 .element-anim2 {
