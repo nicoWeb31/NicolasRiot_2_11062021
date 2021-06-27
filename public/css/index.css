@@ -292,7 +292,8 @@
   z-index: 1; }
   .image__img {
     object-fit: cover;
-    width: 100%; }
+    width: 100%;
+    height: 50rem; }
 
 .menu {
   position: relative;
@@ -718,7 +719,8 @@
   z-index: 1; }
   .image__img {
     object-fit: cover;
-    width: 100%; }
+    width: 100%;
+    height: 50rem; }
 
 .menu {
   position: relative;
