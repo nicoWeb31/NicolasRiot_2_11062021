@@ -308,20 +308,6 @@
     position: relative;
     display: block;
     width: 100%; }
-    .menu__title-block-icone {
-      display: block;
-      position: absolute;
-      right: 2rem;
-      top: 50%;
-      transform: translate(0%, -50%);
-      cursor: pointer; }
-      .menu__title-block-icone .fas {
-        display: none; }
-      .menu__title-block-icone:hover .far {
-        display: none; }
-      .menu__title-block-icone:hover .fas {
-        display: inherit;
-        color: #9356DC; }
   .menu__entre-title {
     text-transform: uppercase;
     position: relative;
@@ -329,15 +315,6 @@
     color: #979c9c;
     font-size: 1.8rem;
     margin-top: 4rem; }
-    .menu__entre-title::before {
-      content: "";
-      position: absolute;
-      left: 0;
-      bottom: 0;
-      height: 2px;
-      width: 50%;
-      /* or 100px */
-      border-bottom: 2px solid #99E2D0; }
   .menu__plat {
     background-color: #fff;
     border-radius: 1.5rem;
@@ -377,7 +354,7 @@
         font-weight: bold;
         margin-left: auto; }
     .menu__plat:hover {
-      padding-right: 7.5rem; }
+      padding-right: 6rem; }
     .menu__plat:hover .fa-check-circle {
       transform: rotate(360deg); }
     .menu__plat .icone {
@@ -386,21 +363,19 @@
       align-items: center;
       background-color: #99E2D0;
       width: 5rem;
-      height: 100%;
+      height: 105%;
       border-top-right-radius: 1.5rem;
       border-bottom-right-radius: 1.5rem;
       position: absolute;
       padding: 2rem;
       right: -6rem;
       top: 0;
-      opacity: 0;
-      transition: transform 330ms ease-in-out;
+      transition: transform 400ms ease-in-out;
       z-index: 100; }
       .menu__plat .icone .fa-check-circle {
         color: #fff;
         transition: transform 500ms ease-in-out; }
     .menu__plat:hover .icone {
-      opacity: 1;
       transform: translate(-6rem); }
   .menu__btn {
     padding: 1.5rem 6rem !important;
@@ -735,20 +710,6 @@
     position: relative;
     display: block;
     width: 100%; }
-    .menu__title-block-icone {
-      display: block;
-      position: absolute;
-      right: 2rem;
-      top: 50%;
-      transform: translate(0%, -50%);
-      cursor: pointer; }
-      .menu__title-block-icone .fas {
-        display: none; }
-      .menu__title-block-icone:hover .far {
-        display: none; }
-      .menu__title-block-icone:hover .fas {
-        display: inherit;
-        color: #9356DC; }
   .menu__entre-title {
     text-transform: uppercase;
     position: relative;
@@ -756,15 +717,6 @@
     color: #979c9c;
     font-size: 1.8rem;
     margin-top: 4rem; }
-    .menu__entre-title::before {
-      content: "";
-      position: absolute;
-      left: 0;
-      bottom: 0;
-      height: 2px;
-      width: 50%;
-      /* or 100px */
-      border-bottom: 2px solid #99E2D0; }
   .menu__plat {
     background-color: #fff;
     border-radius: 1.5rem;
@@ -804,7 +756,7 @@
         font-weight: bold;
         margin-left: auto; }
     .menu__plat:hover {
-      padding-right: 7.5rem; }
+      padding-right: 6rem; }
     .menu__plat:hover .fa-check-circle {
       transform: rotate(360deg); }
     .menu__plat .icone {
@@ -813,21 +765,19 @@
       align-items: center;
       background-color: #99E2D0;
       width: 5rem;
-      height: 100%;
+      height: 105%;
       border-top-right-radius: 1.5rem;
       border-bottom-right-radius: 1.5rem;
       position: absolute;
       padding: 2rem;
       right: -6rem;
       top: 0;
-      opacity: 0;
-      transition: transform 330ms ease-in-out;
+      transition: transform 400ms ease-in-out;
       z-index: 100; }
       .menu__plat .icone .fa-check-circle {
         color: #fff;
         transition: transform 500ms ease-in-out; }
     .menu__plat:hover .icone {
-      opacity: 1;
       transform: translate(-6rem); }
   .menu__btn {
     padding: 1.5rem 6rem !important;
